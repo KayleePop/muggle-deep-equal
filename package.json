@@ -1,0 +1,32 @@
+{
+  "name": "muggle-deep-equal",
+  "version": "1.0.1",
+  "description": "A simple and generic implementation of deep equal",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec"
+  },
+  "author": "KayleePop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayleepop/muggle-deep-equal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kayleepop/muggle-deep-equal/issues"
+  },
+  "keywords": [
+    "simple",
+    "deep",
+    "equal",
+    "generic",
+    "iterable",
+    "iterator",
+    "muggle"
+  ],
+  "devDependencies": {
+    "muggle-test": "^1.0.0",
+    "standard": "^12.0.1",
+    "tap-spec": "^5.0.0"
+  }
+}
