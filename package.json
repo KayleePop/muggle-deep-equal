@@ -1,6 +1,6 @@
 {
   "name": "muggle-deep-equal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and generic implementation of deep equal",
   "main": "index.js",
   "scripts": {

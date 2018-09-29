@@ -49,16 +49,16 @@ If two objects are deeply equal, then their actual data are equal rather than ju
 
 In muggle-deep-equal, equality is determined by these rules (in order):
 
-1. #### If either value is a primitive, then equality is determined using strict equality `===`
+#### 1. If either value is a primitive, then equality is determined using strict equality `===`
   - `String`, `Number`, `Boolean`, `Function`, `Symbol`, `undefined`, or `null`
   - `NaN` is considered equal to `NaN`
-2. #### Both objects must have the same class.
+#### 2. Both objects must have the same class.
   - `object1.constructor.name === object2.constructor.name`
-3. #### If either object is an [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols), then equality is determined by checking that both contain the same values in the same order.
+#### 3. If either object is an [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols), then equality is determined by checking that both contain the same values in the same order.
   - Values are compared by applying these deep equal rules recursively.
   - Every index is compared 1 at a time in order using the [iterator protocol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol)
   - Rules #4 and #5 aren't applied to iterables
-4. #### Both objects must have the same properties and values.
+#### 4. Both objects must have the same properties and values.
   - Compared by applying these deep equal rules recursively on every value using a [for...in loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-5. #### Both objects must return the same string representation from `object.toString()`
+#### 5. Both objects must return the same string representation from `object.toString()`
   - This allows many other objects to be compared as expected such as `Error`, `Date`, and `RegExp`
