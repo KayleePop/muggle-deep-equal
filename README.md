@@ -1,6 +1,9 @@
 # muggle-deep-equal
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/KayleePop/muggle-deep-equal.svg)](https://greenkeeper.io/) [![Travis badge](https://travis-ci.org/KayleePop/muggle-deep-equal.svg?branch=master)](https://travis-ci.org/#) [![standard badge](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![npm](https://img.shields.io/npm/v/muggle-deep-equal.svg)](https://www.npmjs.com/package/muggle-deep-equal)
+[![Greenkeeper badge](https://badges.greenkeeper.io/KayleePop/muggle-deep-equal.svg)](https://greenkeeper.io/)
+[![Travis badge](https://travis-ci.org/KayleePop/muggle-deep-equal.svg?branch=master)](https://travis-ci.org/KayleePop/muggle-deep-equal)
+[![standard badge](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm](https://img.shields.io/npm/v/muggle-deep-equal.svg)](https://www.npmjs.com/package/muggle-deep-equal)
 
 A simple and generic implementation of deep equal using [Iterables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols).
 
