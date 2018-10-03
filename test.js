@@ -56,9 +56,11 @@ test('strict equality should be used for primitives', () => {
 })
 
 test('primitives should not deepEqual objects', () => {
-  assert(!deepEqual(5, {}), '5 should not deepEqual {}')
-  assert(!deepEqual(5, []), '5 should not deepEqual []')
+  assert(!deepEqual('', {}), `'' should not deepEqual {}`)
+  assert(!deepEqual('', []), `'' should not deepEqual []`)
+
   assert(!deepEqual(5, [5]), '5 should not deepEqual [5]')
+  assert(!deepEqual(5, { 5: 5 }), '5 should not deepEqual { 5: 5 }')
 })
 // end of primitives tests
 
