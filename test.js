@@ -390,7 +390,7 @@ test('toString() is checked within iterable', () => {
   // defineProperty() sets property without making it enumerable
   Object.defineProperty(obj, 'toString', { value: () => 'string representation' })
 
-  assert(!deepEqual([ obj ], [ {} ]))
+  assert(!deepEqual([obj], [{}]))
 })
 
 test('classes are checked within object', () => {
