@@ -45,19 +45,19 @@ test('should return false on inequal primitives', () => {
 })
 
 test('strict equality should be used for primitives', () => {
-  assert(!deepEqual(2, '2'), `'2' should not deepEqual 2`)
+  assert(!deepEqual(2, '2'), '\'2\' should not deepEqual 2')
   assert(!deepEqual('', false), 'empty string should not deepEqual false')
   assert(!deepEqual('', 0), 'empty string should not deepEqual 0')
   assert(!deepEqual(undefined, null), 'undefined should not deepEqual null')
   assert(!deepEqual(0, false), '0 should not deepEqual false')
-  assert(!deepEqual('0', false), `'0' should not deepEqual false`)
+  assert(!deepEqual('0', false), '\'0\' should not deepEqual false')
   assert(!deepEqual(1, true), '1 should not deepEqual true')
-  assert(!deepEqual('1', true), `'1' should not deepEqual true`)
+  assert(!deepEqual('1', true), '\'1\' should not deepEqual true')
 })
 
 test('primitives should not deepEqual objects', () => {
-  assert(!deepEqual('', {}), `'' should not deepEqual {}`)
-  assert(!deepEqual('', []), `'' should not deepEqual []`)
+  assert(!deepEqual('', {}), '\'\' should not deepEqual {}')
+  assert(!deepEqual('', []), '\'\' should not deepEqual []')
 
   assert(!deepEqual(5, [5]), '5 should not deepEqual [5]')
   assert(!deepEqual(5, { 5: 5 }), '5 should not deepEqual { 5: 5 }')
