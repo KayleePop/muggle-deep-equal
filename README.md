@@ -1,7 +1,6 @@
 # muggle-deep-equal
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/KayleePop/muggle-deep-equal.svg)](https://greenkeeper.io/)
-[![Travis badge](https://travis-ci.org/KayleePop/muggle-deep-equal.svg?branch=master)](https://travis-ci.org/KayleePop/muggle-deep-equal)
+[![Node.js CI](https://github.com/KayleePop/muggle-deep-equal/workflows/Node.js%20CI/badge.svg)](https://github.com/KayleePop/muggle-deep-equal/actions)
 [![standard badge](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/v/muggle-deep-equal.svg)](https://www.npmjs.com/package/muggle-deep-equal)
 
