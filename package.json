@@ -25,7 +25,7 @@
     "muggle"
   ],
   "devDependencies": {
-    "muggle-test": "^1.0.0",
+    "muggle-test": "^2.0.0",
     "standard": "^14.0.0",
     "tap-spec": "^5.0.0"
   }
